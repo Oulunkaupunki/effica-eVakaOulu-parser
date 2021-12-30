@@ -1,0 +1,14 @@
+<!--
+SPDX-FileCopyrightText: 2021 City of Oulu
+
+SPDX-License-Identifier: LGPL-2.1-or-later
+-->
+
+<childminder>
+    <personid>010101-TP99</personid>
+    <area>1</area>
+    <startdate>20200301</startdate>
+    <enddate>99999999</enddate>
+    <phonenbr>11223344</phonenbr>
+    <email>nomail@forme.fake</email>
+</childminder>

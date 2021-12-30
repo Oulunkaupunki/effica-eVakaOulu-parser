@@ -1,0 +1,110 @@
+<!--
+SPDX-FileCopyrightText: 2021 City of Oulu
+
+SPDX-License-Identifier: LGPL-2.1-or-later
+-->
+
+<item>
+    <code>1</code>
+    <active>A</active>
+    <codetype>SPRAK</codetype>
+    <text>Suomi¤¤Finska</text>
+    <extrainfo1>fi</extrainfo1>
+    <extrainfo2></extrainfo2>
+</item>
+<item>
+    <code>2</code>
+    <active>A</active>
+    <codetype>HEMKOMMUN</codetype>
+    <text>Ypäjä</text>
+    <extrainfo1></extrainfo1>
+    <extrainfo2></extrainfo2>
+</item>
+<item>
+    <code>3</code>
+    <active>A</active>
+    <codetype>LAND</codetype>
+    <text>Suomi</text>
+    <extrainfo1>FI</extrainfo1>
+    <extrainfo2>246</extrainfo2>
+</item>
+<item>
+    <code>108</code>
+    <active>A</active>
+    <codetype>INKSLAG</codetype>
+    <text>Muu tulo¤¤Muu tulo</text>
+    <extrainfo1></extrainfo1>
+    <extrainfo2></extrainfo2>
+</item>
+<item>
+    <code>85</code>
+    <active>A</active>
+    <codetype>INKSLAG</codetype>
+    <text>Palkkatulo</text>
+    <extrainfo1></extrainfo1>
+    <extrainfo2></extrainfo2>
+</item>
+<item>
+    <code>88</code>
+    <active>A</active>
+    <codetype>INKSLAG</codetype>
+    <text>Maksetut elatusavut¤¤Maksetut elatusavut</text>
+    <extrainfo1></extrainfo1>
+    <extrainfo2></extrainfo2>
+</item>
+<item>
+    <code>109</code>
+    <active>A</active>
+    <codetype>INKSLAG</codetype>
+    <text>Päiväraha¤¤Päiväraha</text>
+    <extrainfo1></extrainfo1>
+    <extrainfo2></extrainfo2>
+</item>
+<item>
+    <code>83</code>
+    <active>A</active>
+    <codetype>INKPERIOD</codetype>
+    <text>Kuukausitulo¤¤Inkomstperiod1</text>
+    <extrainfo1></extrainfo1>
+    <extrainfo2></extrainfo2>
+</item>
+<item>
+    <code>111</code>
+    <active>A</active>
+    <codetype>INKPERIOD</codetype>
+    <text>päiväraha x 21,5</text>
+    <extrainfo1></extrainfo1>
+    <extrainfo2></extrainfo2>
+</item>
+<item>
+    <code>100</code>
+    <active>A</active>
+    <codetype>OMFATTNING</codetype>
+    <text>Kokopäivähoito¤¤Heldagsomsorg 5-7t/d</text>
+    <extrainfo1>1,25.01</extrainfo1>
+    <extrainfo2></extrainfo2>
+</item>
+<item>
+    <code>101</code>
+    <active>A</active>
+    <codetype>OMFATTNING</codetype>
+    <text>Osapäivähoito enintään 5 h/pv¤¤Halvdagsomsorg &lt; 5 t/d</text>
+    <extrainfo1>2,10.01</extrainfo1>
+    <extrainfo2></extrainfo2>
+</item>
+<item>
+    <code>999420001</code>
+    <active>A</active>
+    <codetype>STATUS</codetype>
+    <text>Hyväksytty¤¤OK</text>
+    <extrainfo1>OK</extrainfo1>
+    <extrainfo2></extrainfo2>
+</item>
+<item>
+    <code>999940001</code>
+    <active>A</active>
+    <codetype>ARENDETYP</codetype>
+    <text>Päivähoitohakemus</text>
+    <extrainfo1>BOA</extrainfo1>
+    <extrainfo2> </extrainfo2>
+</item>

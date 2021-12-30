@@ -1,0 +1,17 @@
+<!--
+SPDX-FileCopyrightText: 2021 City of Oulu
+
+SPDX-License-Identifier: LGPL-2.1-or-later
+-->
+
+<Application>
+  <PersonId>010619A9501</PersonId>
+  <ApplicationDate>20210801</ApplicationDate>
+  <PlaceNeed>1.00</PlaceNeed>
+  <SpecialHandlingTime>0</SpecialHandlingTime>
+  <TransferApplication>0</TransferApplication>
+  <Status>999962042</Status>
+  <CareId>12345</CareId>
+  <ApplicationType>999940001</ApplicationType>
+  <GUID>12F28AA0-E059-4203-98F9-EE3D37738B99</GUID>
+</Application>

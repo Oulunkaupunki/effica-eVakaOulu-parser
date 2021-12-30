@@ -1,0 +1,22 @@
+<!--
+SPDX-FileCopyrightText: 2021 City of Oulu
+
+SPDX-License-Identifier: LGPL-2.1-or-later
+-->
+
+<income>
+    <personid>180476-998M</personid>
+    <startdate>20200301</startdate>
+    <enddate>20210301</enddate>
+    <maxincome>0</maxincome>
+    <incomemissing>0</incomemissing>
+    <summa>50000.00</summa>
+</income>
+<income2>
+    <personid>020967-9992</personid>
+    <startdate>20200301</startdate>
+    <enddate>20210301</enddate>
+    <maxincome>0</maxincome>
+    <incomemissing>0</incomemissing>
+    <summa>5060.60</summa>
+</income2>

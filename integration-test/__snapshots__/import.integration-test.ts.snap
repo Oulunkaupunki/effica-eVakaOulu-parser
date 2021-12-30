@@ -1,0 +1,1305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET /import csv positive should return created childmindermaps 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "effica_id": "010101-TP99",
+        "evaka_id": "19fec1fa-e2f1-11eb-8473-eb1f7ce94b07",
+      },
+    ],
+  ],
+  "tables": Array [
+    "childmindermap",
+  ],
+}
+`;
+
+exports[`GET /import csv positive should return created daycare oid mappings 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "evaka_id": "19fec146-e2f1-11eb-8473-db55258254c5",
+        "organizer_oid": "1.2.3.4",
+        "unit_oid": "1.2.3.4.5.6",
+        "varda_unit_id": 100,
+      },
+      Object {
+        "evaka_id": "19fec1fa-e2f1-11eb-8473-eb1f7ce94b07",
+        "organizer_oid": "1.2.3.5",
+        "unit_oid": "1.2.3.4.5.7",
+        "varda_unit_id": null,
+      },
+    ],
+  ],
+  "tables": Array [
+    "daycare_oid_map",
+  ],
+}
+`;
+
+exports[`GET /import csv positive should return created evaka areas 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "id": "6529e31e-9777-11eb-ba88-33a923255570",
+        "name": "Etelä",
+        "short_name": "etela",
+      },
+      Object {
+        "id": "6529f5a2-9777-11eb-ba89-cfcda122ed3b",
+        "name": "Itä",
+        "short_name": "ita",
+      },
+      Object {
+        "id": "6529f6ce-9777-11eb-ba8a-8f6495ec5104",
+        "name": "Länsi",
+        "short_name": "lansi",
+      },
+    ],
+  ],
+  "tables": Array [
+    "evaka_areas",
+  ],
+}
+`;
+
+exports[`GET /import csv positive should return created evaka daycares 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "additional_info": null,
+        "backup_location": null,
+        "care_area_id": "6529f6ce-9777-11eb-ba8a-8f6495ec5104",
+        "closing_date": null,
+        "club_apply_period": null,
+        "cost_center": "99",
+        "daycare_apply_period": "[2021-04-20,)",
+        "decision_daycare_name": "Tenhon testiyksikkö",
+        "decision_preschool_name": "",
+        "email": null,
+        "ghost_unit": false,
+        "id": "19fec146-e2f1-11eb-8473-db55258254c5",
+        "invoiced_by_municipality": true,
+        "language": "fi",
+        "location": Object {
+          "x": 21.55555,
+          "y": 61.55555,
+        },
+        "mailing_po_box": "Testikuja 123",
+        "mailing_post_office": "Tenhola",
+        "mailing_postal_code": "12000",
+        "mailing_street_address": null,
+        "name": "Tenhon testiyksikkö",
+        "opening_date": "2020-03-01T00:00:00.000Z",
+        "operation_days": Array [
+          1,
+          2,
+          3,
+          4,
+          5,
+        ],
+        "oph_unit_oid": null,
+        "phone": null,
+        "post_office": "Tenhola",
+        "postal_code": "12000",
+        "preschool_apply_period": null,
+        "provider_type": "MUNICIPAL",
+        "round_the_clock": false,
+        "schedule": null,
+        "street_address": "Testikuja 123",
+        "type": Array [
+          "CENTRE",
+        ],
+        "unit_manager_id": "340ead9c-a1bc-11eb-b5d4-1bc4a624aabe",
+        "upload_to_koski": false,
+        "upload_to_varda": false,
+        "url": null,
+      },
+      Object {
+        "additional_info": null,
+        "backup_location": null,
+        "care_area_id": "6529f5a2-9777-11eb-ba89-cfcda122ed3b",
+        "closing_date": null,
+        "club_apply_period": null,
+        "cost_center": null,
+        "daycare_apply_period": "[2021-04-20,)",
+        "decision_daycare_name": "Pujakan testiyksikkö",
+        "decision_preschool_name": "",
+        "email": null,
+        "ghost_unit": false,
+        "id": "19fec1fa-e2f1-11eb-8473-eb1f7ce94b07",
+        "invoiced_by_municipality": false,
+        "language": "fi",
+        "location": Object {
+          "x": 21.66666,
+          "y": 61.66666,
+        },
+        "mailing_po_box": "Testaajankatu 321",
+        "mailing_post_office": "Pajuoja",
+        "mailing_postal_code": "13000",
+        "mailing_street_address": null,
+        "name": "Pujakan testiyksikkö",
+        "opening_date": "2020-03-01T00:00:00.000Z",
+        "operation_days": Array [
+          1,
+          2,
+          3,
+          4,
+          5,
+        ],
+        "oph_unit_oid": null,
+        "phone": null,
+        "post_office": "Pajuoja",
+        "postal_code": "13000",
+        "preschool_apply_period": null,
+        "provider_type": "MUNICIPAL",
+        "round_the_clock": false,
+        "schedule": null,
+        "street_address": "Testaajankatu 321",
+        "type": Array [
+          "CENTRE",
+        ],
+        "unit_manager_id": "340eae78-a1bc-11eb-b5d6-b30369678b4c",
+        "upload_to_koski": false,
+        "upload_to_varda": false,
+        "url": null,
+      },
+    ],
+  ],
+  "tables": Array [
+    "evaka_daycare",
+  ],
+}
+`;
+
+exports[`GET /import csv positive should return created evaka unit managers 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "email": null,
+        "id": "340ead9c-a1bc-11eb-b5d4-1bc4a624aabe",
+        "name": "Yrjö Yksikönjohtaja",
+        "phone": "1",
+      },
+      Object {
+        "email": null,
+        "id": "340eae78-a1bc-11eb-b5d6-b30369678b4c",
+        "name": "Ylermi Yksikönjohtaja",
+        "phone": "2",
+      },
+    ],
+  ],
+  "tables": Array [
+    "evaka_unit_manager",
+  ],
+}
+`;
+
+exports[`GET /import csv positive should return created extentmaps 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "days": 0,
+        "effica_id": 100,
+        "evaka_id": "86ef70a0-bf85-11eb-91e6-1fb57a101161",
+      },
+      Object {
+        "days": 15,
+        "effica_id": 101,
+        "evaka_id": "86ef7370-bf85-11eb-91e7-6fcd728c518d",
+      },
+    ],
+  ],
+  "tables": Array [
+    "extentmap",
+  ],
+}
+`;
+
+exports[`GET /import csv positive should return created families exclusion 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "enddate": "2020-12-01T00:00:00.000Z",
+        "familynbr": 2,
+        "personid": "010619A9501",
+        "roleinfamily": "B",
+        "startdate": "2020-12-01T00:00:00.000Z",
+      },
+    ],
+  ],
+  "tables": Array [
+    "families_exclusion",
+  ],
+}
+`;
+
+exports[`GET /import csv positive should return created placements exclusion 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "placementnbr": 16,
+      },
+    ],
+  ],
+  "tables": Array [
+    "placements_exclusion",
+  ],
+}
+`;
+
+exports[`GET /import csv positive should return created unitmaps 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "effica_id": 123,
+        "evaka_id": "19fec146-e2f1-11eb-8473-db55258254c5",
+      },
+      Object {
+        "effica_id": 125,
+        "evaka_id": "19fec1fa-e2f1-11eb-8473-eb1f7ce94b07",
+      },
+    ],
+  ],
+  "tables": Array [
+    "unitmap",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created application rows 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "areacode": "4010401",
+        "careid": 12345,
+        "childminder": null,
+        "childmindercare": "0",
+        "days": 0,
+        "extent": 100,
+        "guid": "52F59481-5533-49E4-8D9F-85E6E180B768",
+        "hours": "0",
+        "personid": "010619A9501",
+        "priority": 1,
+        "startdate": "2021-09-01T00:00:00.000Z",
+        "type": "BOA",
+        "unitcare": 0,
+        "unitcode": 123,
+      },
+    ],
+  ],
+  "tables": Array [
+    "applicationrows",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created applications 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "applicationdate": "2021-08-01T00:00:00.000Z",
+        "applicationtype": 999940001,
+        "careid": 12345,
+        "guid": "12F28AA0-E059-4203-98F9-EE3D37738B99",
+        "personid": "010619A9501",
+        "placeneed": "1",
+        "specialhandlingtime": "0",
+        "status": 999962042,
+        "transferapplication": false,
+      },
+    ],
+  ],
+  "tables": Array [
+    "applications",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created childminders 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "area": 1,
+        "email": "nomail@forme.fake",
+        "enddate": null,
+        "personid": "010101-TP99",
+        "phonenbr": "11223344",
+        "startdate": Any<String>,
+      },
+    ],
+  ],
+  "tables": Array [
+    "childminders",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created codes 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "active": true,
+        "code": 1,
+        "codetype": "SPRAK",
+        "extrainfo1": "fi",
+        "extrainfo2": null,
+        "text": "Suomi¤¤Finska",
+      },
+      Object {
+        "active": true,
+        "code": 2,
+        "codetype": "HEMKOMMUN",
+        "extrainfo1": null,
+        "extrainfo2": null,
+        "text": "Ypäjä",
+      },
+      Object {
+        "active": true,
+        "code": 3,
+        "codetype": "LAND",
+        "extrainfo1": "FI",
+        "extrainfo2": "246",
+        "text": "Suomi",
+      },
+      Object {
+        "active": true,
+        "code": 108,
+        "codetype": "INKSLAG",
+        "extrainfo1": null,
+        "extrainfo2": null,
+        "text": "Muu tulo¤¤Muu tulo",
+      },
+      Object {
+        "active": true,
+        "code": 85,
+        "codetype": "INKSLAG",
+        "extrainfo1": null,
+        "extrainfo2": null,
+        "text": "Palkkatulo",
+      },
+      Object {
+        "active": true,
+        "code": 88,
+        "codetype": "INKSLAG",
+        "extrainfo1": null,
+        "extrainfo2": null,
+        "text": "Maksetut elatusavut¤¤Maksetut elatusavut",
+      },
+      Object {
+        "active": true,
+        "code": 109,
+        "codetype": "INKSLAG",
+        "extrainfo1": null,
+        "extrainfo2": null,
+        "text": "Päiväraha¤¤Päiväraha",
+      },
+      Object {
+        "active": true,
+        "code": 83,
+        "codetype": "INKPERIOD",
+        "extrainfo1": null,
+        "extrainfo2": null,
+        "text": "Kuukausitulo¤¤Inkomstperiod1",
+      },
+      Object {
+        "active": true,
+        "code": 111,
+        "codetype": "INKPERIOD",
+        "extrainfo1": null,
+        "extrainfo2": null,
+        "text": "päiväraha x 21,5",
+      },
+      Object {
+        "active": true,
+        "code": 100,
+        "codetype": "OMFATTNING",
+        "extrainfo1": "1,25.01",
+        "extrainfo2": null,
+        "text": "Kokopäivähoito¤¤Heldagsomsorg 5-7t/d",
+      },
+      Object {
+        "active": true,
+        "code": 101,
+        "codetype": "OMFATTNING",
+        "extrainfo1": "2,10.01",
+        "extrainfo2": null,
+        "text": "Osapäivähoito enintään 5 h/pv¤¤Halvdagsomsorg &lt; 5 t/d",
+      },
+      Object {
+        "active": true,
+        "code": 999420001,
+        "codetype": "STATUS",
+        "extrainfo1": "OK",
+        "extrainfo2": null,
+        "text": "Hyväksytty¤¤OK",
+      },
+      Object {
+        "active": true,
+        "code": 999940001,
+        "codetype": "ARENDETYP",
+        "extrainfo1": "BOA",
+        "extrainfo2": null,
+        "text": "Päivähoitohakemus",
+      },
+    ],
+  ],
+  "tables": Array [
+    "codes",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created daily journal rows 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "dailyjournalid": 123456,
+        "extrachild": null,
+        "guid": "dailyjournalrow123456",
+        "personid": "251118A9509",
+        "reportcode01": 0,
+        "reportcode02": 0,
+        "reportcode03": 173,
+        "reportcode04": 0,
+        "reportcode05": 0,
+        "reportcode06": 0,
+        "reportcode07": 0,
+        "reportcode08": 0,
+        "reportcode09": 169,
+        "reportcode10": 0,
+        "reportcode11": 0,
+        "reportcode12": 0,
+        "reportcode13": 0,
+        "reportcode14": 0,
+        "reportcode15": 176,
+        "reportcode16": 176,
+        "reportcode17": 176,
+        "reportcode18": 0,
+        "reportcode19": 176,
+        "reportcode20": 0,
+        "reportcode21": 0,
+        "reportcode22": 0,
+        "reportcode23": 0,
+        "reportcode24": 999,
+        "reportcode25": 0,
+        "reportcode26": 0,
+        "reportcode27": 0,
+        "reportcode28": 0,
+        "reportcode29": 0,
+        "reportcode30": 0,
+        "reportcode31": 0,
+      },
+      Object {
+        "dailyjournalid": 123457,
+        "extrachild": null,
+        "guid": "dailyjournalrow123457",
+        "personid": "251118A9509",
+        "reportcode01": 0,
+        "reportcode02": 0,
+        "reportcode03": 0,
+        "reportcode04": 0,
+        "reportcode05": 0,
+        "reportcode06": 0,
+        "reportcode07": 0,
+        "reportcode08": 0,
+        "reportcode09": 0,
+        "reportcode10": 0,
+        "reportcode11": 0,
+        "reportcode12": 0,
+        "reportcode13": 0,
+        "reportcode14": 0,
+        "reportcode15": 174,
+        "reportcode16": 174,
+        "reportcode17": 174,
+        "reportcode18": 0,
+        "reportcode19": 174,
+        "reportcode20": 0,
+        "reportcode21": 0,
+        "reportcode22": 0,
+        "reportcode23": 0,
+        "reportcode24": 0,
+        "reportcode25": 0,
+        "reportcode26": 0,
+        "reportcode27": 0,
+        "reportcode28": 0,
+        "reportcode29": 0,
+        "reportcode30": 0,
+        "reportcode31": 0,
+      },
+    ],
+  ],
+  "tables": Array [
+    "dailyjournalrows",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created daily journals 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "childminder": null,
+        "dailyjournalid": 123456,
+        "department": 1231,
+        "guid": "dailyjournal123456",
+        "openingdays": "0000011000001100000110000011000",
+        "period": "202003",
+        "unit": 123,
+      },
+      Object {
+        "childminder": null,
+        "dailyjournalid": 123457,
+        "department": 1251,
+        "guid": "dailyjournal123457",
+        "openingdays": "0000011000001100000110000011000",
+        "period": "202003",
+        "unit": 125,
+      },
+    ],
+  ],
+  "tables": Array [
+    "dailyjournals",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created decisions 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "caseworker": "FAKE",
+        "ceiling": "0",
+        "days": 0,
+        "decisionchildminder": null,
+        "decisiondate": Any<String>,
+        "decisionmaker": null,
+        "decisionnbr": 1,
+        "decisionstatus": 999420001,
+        "decisiontype": 426,
+        "decisionunitcode": 123,
+        "enddate": null,
+        "extent": 100,
+        "factor": "0",
+        "familysize": 5,
+        "grandtotal": "10",
+        "guid": "10",
+        "paydecision": "1",
+        "personid": "010619A9501",
+        "startdate": Any<String>,
+        "sum": "10",
+        "totalsum": "10",
+      },
+    ],
+  ],
+  "tables": Array [
+    "decisions",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created departments 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "departmentaddress": "Testikuja 123",
+        "departmentcity": "Tenhola",
+        "departmentcode": 1231,
+        "departmentemail": "eij@imaginary.fake",
+        "departmentname": "Tenhon terhot",
+        "departmentzipcode": "12000",
+        "enddate": null,
+        "phone": "1234567",
+        "startdate": Any<String>,
+        "unitcode": 123,
+      },
+      Object {
+        "departmentaddress": "Testaajankatu 321",
+        "departmentcity": "Pajuoja",
+        "departmentcode": 1251,
+        "departmentemail": "eij@imaginary.fake",
+        "departmentname": "Tujun tupajumit",
+        "departmentzipcode": "13000",
+        "enddate": null,
+        "phone": "1234567",
+        "startdate": Any<String>,
+        "unitcode": 125,
+      },
+    ],
+  ],
+  "tables": Array [
+    "departments",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created families 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "enddate": Any<String>,
+        "familynbr": 1,
+        "personid": "020967-9992",
+        "roleinfamily": "R",
+        "startdate": Any<String>,
+      },
+      Object {
+        "enddate": Any<String>,
+        "familynbr": 1,
+        "personid": "180476-998M",
+        "roleinfamily": "S",
+        "startdate": Any<String>,
+      },
+      Object {
+        "enddate": Any<String>,
+        "familynbr": 1,
+        "personid": "251118A9509",
+        "roleinfamily": "B",
+        "startdate": Any<String>,
+      },
+      Object {
+        "enddate": null,
+        "familynbr": 2,
+        "personid": "020967-9992",
+        "roleinfamily": "R",
+        "startdate": Any<String>,
+      },
+      Object {
+        "enddate": null,
+        "familynbr": 2,
+        "personid": "180476-998M",
+        "roleinfamily": "S",
+        "startdate": Any<String>,
+      },
+      Object {
+        "enddate": null,
+        "familynbr": 2,
+        "personid": "251118A9509",
+        "roleinfamily": "B",
+        "startdate": Any<String>,
+      },
+      Object {
+        "enddate": null,
+        "familynbr": 2,
+        "personid": "010619A9501",
+        "roleinfamily": "B",
+        "startdate": Any<String>,
+      },
+      Object {
+        "enddate": Any<String>,
+        "familynbr": 2,
+        "personid": "010619A9501",
+        "roleinfamily": "B",
+        "startdate": Any<String>,
+      },
+    ],
+  ],
+  "tables": Array [
+    "families",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created feedeviations 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "days": 0,
+        "deviationtype": 5,
+        "enddate": null,
+        "extentcode": 100,
+        "hours": "0",
+        "placementnbr": 11,
+        "procent": "0",
+        "rownbr": 1,
+        "serviceform": 3,
+        "startdate": Any<String>,
+        "sum": "0",
+      },
+      Object {
+        "days": 0,
+        "deviationtype": 39,
+        "enddate": null,
+        "extentcode": 101,
+        "hours": "0",
+        "placementnbr": 12,
+        "procent": "0",
+        "rownbr": 2,
+        "serviceform": 3,
+        "startdate": Any<String>,
+        "sum": "10",
+      },
+    ],
+  ],
+  "tables": Array [
+    "feedeviations",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created income  1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "enddate": Any<String>,
+        "incomemissing": false,
+        "maxincome": false,
+        "personid": "180476-998M",
+        "startdate": Any<String>,
+        "summa": "50000",
+      },
+      Object {
+        "enddate": null,
+        "incomemissing": false,
+        "maxincome": false,
+        "personid": "020967-9992",
+        "startdate": Any<String>,
+        "summa": "5060.6",
+      },
+    ],
+  ],
+  "tables": Array [
+    "income",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created incomerows 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "enddate": null,
+        "incomeperiod": 83,
+        "incometype": 85,
+        "personid": "020967-9992",
+        "startdate": Any<String>,
+        "summa": "4500.6",
+      },
+      Object {
+        "enddate": Any<String>,
+        "incomeperiod": 83,
+        "incometype": 108,
+        "personid": "020967-9992",
+        "startdate": Any<String>,
+        "summa": "560",
+      },
+      Object {
+        "enddate": null,
+        "incomeperiod": 83,
+        "incometype": 88,
+        "personid": "020967-9992",
+        "startdate": Any<String>,
+        "summa": "215",
+      },
+      Object {
+        "enddate": null,
+        "incomeperiod": 111,
+        "incometype": 109,
+        "personid": "020967-9992",
+        "startdate": Any<String>,
+        "summa": "10",
+      },
+    ],
+  ],
+  "tables": Array [
+    "incomerows",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created pay decision rows 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "fee": "0",
+        "guid": "paydecisionrow38437811",
+        "income": "100.2",
+        "internalid": 3843781,
+        "person": "020967-9992",
+        "rownumber": 1,
+        "rowtype": 1,
+        "specification": null,
+      },
+      Object {
+        "fee": "0",
+        "guid": "paydecisionrow38437812",
+        "income": null,
+        "internalid": 3843781,
+        "person": null,
+        "rownumber": 2,
+        "rowtype": 3,
+        "specification": "Perhekoko 2 (maksu 10.70%)",
+      },
+      Object {
+        "fee": "492",
+        "guid": "paydecisionrow38437813",
+        "income": null,
+        "internalid": 3843781,
+        "person": "010619A9501",
+        "rownumber": 3,
+        "rowtype": 5,
+        "specification": null,
+      },
+      Object {
+        "fee": "0",
+        "guid": "paydecisionrow38437814",
+        "income": "999999",
+        "internalid": 3843781,
+        "person": "180476-998M",
+        "rownumber": 4,
+        "rowtype": 2,
+        "specification": null,
+      },
+    ],
+  ],
+  "tables": Array [
+    "paydecisionrows",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created pay decisions 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "caseworker": null,
+        "decisiondate": "2020-01-01T00:00:00.000Z",
+        "decisionmaker": null,
+        "decisionnumber": 123456790,
+        "enddate": null,
+        "fee": "492",
+        "guid": "paydecision3843781",
+        "headoffamily": "020967-9992",
+        "internaldecisionnumber": 3843781,
+        "startdate": "2020-03-01T00:00:00.000Z",
+        "status": 999420001,
+      },
+    ],
+  ],
+  "tables": Array [
+    "paydecisions",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created persons 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "guid": "{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaa1}",
+        "homemunicipality": 2,
+        "mothertongue": 1,
+        "nationality": 3,
+        "personcity": "Ypäjä",
+        "personhomeemail": "fake@notmaildomain.notext",
+        "personid": "020967-9992",
+        "personmobilephone": "000-0000000",
+        "personname": "Authentic, Aimo",
+        "personstreetaddress": "Fakestreet 123",
+        "personzipcode": "00001",
+        "phonehome": null,
+        "phonework": null,
+        "secretaddress": false,
+      },
+      Object {
+        "guid": "{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaa2}",
+        "homemunicipality": 2,
+        "mothertongue": 1,
+        "nationality": null,
+        "personcity": "Ypäjä",
+        "personhomeemail": "fake2@notmaildomain.notext",
+        "personid": "020288-TP01",
+        "personmobilephone": null,
+        "personname": "Temporary, Teppo",
+        "personstreetaddress": "StreetStreet 321",
+        "personzipcode": "00002",
+        "phonehome": null,
+        "phonework": "111-1111111",
+        "secretaddress": false,
+      },
+      Object {
+        "guid": "{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaa3}",
+        "homemunicipality": 2,
+        "mothertongue": 1,
+        "nationality": 3,
+        "personcity": "Ypäjä",
+        "personhomeemail": "fake3@notmaildomain.notext",
+        "personid": "180476-998M",
+        "personmobilephone": null,
+        "personname": "Hidden, Hilda",
+        "personstreetaddress": "HideStreet 2",
+        "personzipcode": "00001",
+        "phonehome": "0222222222",
+        "phonework": null,
+        "secretaddress": true,
+      },
+      Object {
+        "guid": "{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaa4}",
+        "homemunicipality": 2,
+        "mothertongue": 1,
+        "nationality": 3,
+        "personcity": "Ypäjä",
+        "personhomeemail": "fake3@notmaildomain.notext",
+        "personid": "010619A9501",
+        "personmobilephone": "222-2222222",
+        "personname": "Child, Christian",
+        "personstreetaddress": "HideStreet 2",
+        "personzipcode": "00001",
+        "phonehome": "222-2222224",
+        "phonework": "222-2222223",
+        "secretaddress": false,
+      },
+      Object {
+        "guid": "{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaa5}",
+        "homemunicipality": 2,
+        "mothertongue": 1,
+        "nationality": 3,
+        "personcity": "Tenhola",
+        "personhomeemail": "fake3@notmaildomain.notext",
+        "personid": "251118A9509",
+        "personmobilephone": null,
+        "personname": "Child, Camilla",
+        "personstreetaddress": "HideStreet 2",
+        "personzipcode": "12000",
+        "phonehome": "222-2222223",
+        "phonework": "222-2222222",
+        "secretaddress": false,
+      },
+      Object {
+        "guid": "{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaa6}",
+        "homemunicipality": 2,
+        "mothertongue": 1,
+        "nationality": 3,
+        "personcity": null,
+        "personhomeemail": null,
+        "personid": "181101A9092",
+        "personmobilephone": null,
+        "personname": null,
+        "personstreetaddress": null,
+        "personzipcode": null,
+        "phonehome": null,
+        "phonework": null,
+        "secretaddress": false,
+      },
+    ],
+  ],
+  "tables": Array [
+    "persons",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created placementextents 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "days": 0,
+        "enddate": null,
+        "extentcode": 100,
+        "extentnbr": 1,
+        "hours": "0",
+        "placementnbr": 11,
+        "startdate": Any<String>,
+      },
+      Object {
+        "days": 15,
+        "enddate": null,
+        "extentcode": 101,
+        "extentnbr": 2,
+        "hours": "0",
+        "placementnbr": 13,
+        "startdate": Any<String>,
+      },
+      Object {
+        "days": 15,
+        "enddate": null,
+        "extentcode": 101,
+        "extentnbr": 3,
+        "hours": "0",
+        "placementnbr": 13,
+        "startdate": Any<String>,
+      },
+    ],
+  ],
+  "tables": Array [
+    "placementextents",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created placements 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "enddate": null,
+        "personid": "010619A9501",
+        "placementchildminder": null,
+        "placementdepartmentcode": 1231,
+        "placementnbr": 11,
+        "placementunitcode": 123,
+        "startdate": Any<String>,
+      },
+      Object {
+        "enddate": null,
+        "personid": "010619A9501",
+        "placementchildminder": null,
+        "placementdepartmentcode": 1231,
+        "placementnbr": 12,
+        "placementunitcode": 123,
+        "startdate": Any<String>,
+      },
+      Object {
+        "enddate": null,
+        "personid": "251118A9509",
+        "placementchildminder": "010101-TP99",
+        "placementdepartmentcode": null,
+        "placementnbr": 13,
+        "placementunitcode": null,
+        "startdate": Any<String>,
+      },
+      Object {
+        "enddate": Any<String>,
+        "personid": "251118A9509",
+        "placementchildminder": "010101-TP99",
+        "placementdepartmentcode": null,
+        "placementnbr": 14,
+        "placementunitcode": null,
+        "startdate": Any<String>,
+      },
+      Object {
+        "enddate": null,
+        "personid": "251118A9509",
+        "placementchildminder": "010101-TP99",
+        "placementdepartmentcode": null,
+        "placementnbr": 15,
+        "placementunitcode": null,
+        "startdate": Any<String>,
+      },
+      Object {
+        "enddate": null,
+        "personid": "251118A9509",
+        "placementchildminder": "010101-TP99",
+        "placementdepartmentcode": null,
+        "placementnbr": 16,
+        "placementunitcode": null,
+        "startdate": Any<String>,
+      },
+    ],
+  ],
+  "tables": Array [
+    "placements",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created special means 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "enddate": "2020-05-31T00:00:00.000Z",
+        "guid": "specialmeans010619A95011",
+        "mean": 438,
+        "personid": "010619A9501",
+        "specialneedcode": 207,
+        "specialneednbr": 1111,
+        "startdate": "2019-08-08T00:00:00.000Z",
+      },
+    ],
+  ],
+  "tables": Array [
+    "specialmeans",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created special needs 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "enddate": "2020-05-31T00:00:00.000Z",
+        "guid": "specialneeds010619A95011",
+        "personid": "010619A9501",
+        "specialneedcode": 207,
+        "specialneednbr": 1111,
+        "startdate": "2019-08-08T00:00:00.000Z",
+      },
+    ],
+  ],
+  "tables": Array [
+    "specialneeds",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created timestamp details 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "day": 1,
+        "endtime1": "1617",
+        "endtime2": null,
+        "endtime3": null,
+        "guid": "timestampdetails-112201",
+        "rownumber": 1122,
+        "starttime1": "0726",
+        "starttime2": null,
+        "starttime3": null,
+      },
+    ],
+  ],
+  "tables": Array [
+    "timestampdetails",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created timestamp headers 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "childminder": "010101-TP99",
+        "department": 0,
+        "guid": "timestampheader-1122",
+        "period": "202101",
+        "personid": "251118A9509",
+        "placementnumber": 13,
+        "rownumber": 1122,
+        "rowtype": "R",
+        "unit": 0,
+      },
+    ],
+  ],
+  "tables": Array [
+    "timestampheaders",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should return created units 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "areacode": 1,
+        "enddate": null,
+        "phone1": "3123312",
+        "startdate": Any<String>,
+        "unit24_7": false,
+        "unitaddress": "Testikuja 123",
+        "unitcity": "Tenhola",
+        "unitcode": 123,
+        "unitemail": "notreal@imaginary.fake",
+        "unitname": "Tenhon testiyksikkö",
+        "unitzipcode": "12000",
+      },
+      Object {
+        "areacode": 2,
+        "enddate": null,
+        "phone1": "12123123",
+        "startdate": Any<String>,
+        "unit24_7": true,
+        "unitaddress": "Testaajankatu 321",
+        "unitcity": "Pajuoja",
+        "unitcode": 125,
+        "unitemail": "notreal@imaginary.fake",
+        "unitname": "Pujakan testiyksikkö",
+        "unitzipcode": "13000",
+      },
+    ],
+  ],
+  "tables": Array [
+    "units",
+  ],
+}
+`;
+
+exports[`GET /import xml positive should work even if XML elements have mixed case 1`] = `
+Object {
+  "inserts": Array [
+    Array [
+      Object {
+        "active": true,
+        "code": 1,
+        "codetype": "SPRAK",
+        "extrainfo1": "fi",
+        "extrainfo2": null,
+        "text": "Suomi¤¤Finska",
+      },
+      Object {
+        "active": true,
+        "code": 2,
+        "codetype": "HEMKOMMUN",
+        "extrainfo1": null,
+        "extrainfo2": null,
+        "text": "Ypäjä",
+      },
+      Object {
+        "active": true,
+        "code": 3,
+        "codetype": "LAND",
+        "extrainfo1": "FI",
+        "extrainfo2": "246",
+        "text": "Suomi",
+      },
+      Object {
+        "active": true,
+        "code": 26,
+        "codetype": "INKSLAG",
+        "extrainfo1": null,
+        "extrainfo2": null,
+        "text": "Lisätulo¤¤Inkomstslag1",
+      },
+      Object {
+        "active": true,
+        "code": 25,
+        "codetype": "INKSLAG",
+        "extrainfo1": null,
+        "extrainfo2": null,
+        "text": "Päätulo¤¤Inkomstslag2",
+      },
+      Object {
+        "active": true,
+        "code": 30,
+        "codetype": "INKPERIOD",
+        "extrainfo1": null,
+        "extrainfo2": null,
+        "text": "Kuukausitulo¤¤Inkomstperiod1",
+      },
+    ],
+  ],
+  "tables": Array [
+    "codes",
+  ],
+}
+`;
