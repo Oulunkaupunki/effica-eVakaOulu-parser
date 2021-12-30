@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# SPDX-FileCopyrightText: 2017-2021 City of Espoo
-# SPDX-FileCopyrightText: 2022 City of Oulu
+# SPDX-FileCopyrightText: 2017-2020 City of Espoo
+# SPDX-FileCopyrightText: 2021 City of Oulu
 #
 # SPDX-License-Identifier: LGPL-2.1-or-later
 
@@ -10,7 +10,7 @@ set -euo pipefail
 # Configuration
 DEBUG=${DEBUG:-false}
 REUSE_VERSION=0.13.0 # NOTE: Update .circleci/config.yml to match
-START_YEAR=2022
+START_YEAR=2021
 CURRENT_YEAR=$(date +"%Y")
 if [ "${START_YEAR}" == "${CURRENT_YEAR}" ]; then
     REUSE_YEARS=${REUSE_YEARS:-"${CURRENT_YEAR}"}
