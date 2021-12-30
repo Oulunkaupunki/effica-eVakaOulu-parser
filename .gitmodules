@@ -1,0 +1,3 @@
+[submodule "eVakaOulu"]
+	path = eVakaOulu
+	url = https://github.com/Oulunkaupunki/eVakaOulu.git
