@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2021 City of Oulu
 SPDX-License-Identifier: LGPL-2.1-or-later
 -->
 
-# effica-eVakaOulu-parser
+# effica-evakaoulu-parser
 Tool for facilitating Effica -> eVaka data migrations
 
 Developed for assisting in the migration of early education data from the old education system to eVakaOulu.
@@ -24,7 +24,7 @@ The parser provides some configuration options to make the tool usable in differ
 
 The necessary database objects for the default configuration on the accompanying docker db are created with the `init.sql` initialization script upon container composition. If using another database, configure parser to match its requirements.
 
-This repository uses the eVakaOulu repository as a submodule in order to apply evaka and eVakaOulu flyway migrations to create an authentic and up to date evaka database structure for integration testing the transfer of migrated elements. This stucture is automatically generated when using the accompanying docker compose configurations.
+This repository uses the evakaoulu repository as a submodule in order to apply evaka and eVakaOulu flyway migrations to create an authentic and up to date evaka database structure for integration testing the transfer of migrated elements. This stucture is automatically generated when using the accompanying docker compose configurations.
 ## Integration tests
 
 Start the included docker compose for integration testing DB:
